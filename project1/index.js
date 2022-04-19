@@ -11,7 +11,8 @@ function blurring() {
     load++;
     if (load > 99) {
         clearInterval(int)
-            //if the load is greater than 99 clearinterval function is called and then, int because let int = setInterval(blurring, 30)
+            //if the load is greater than 99 clearinterval 
+            //function is called and then, int because let int = setInterval(blurring, 30)
     }
     loadText.innerText = `${load} %`
     loadText.style.opacity = scale(load, 0, 100, 1, 0);
